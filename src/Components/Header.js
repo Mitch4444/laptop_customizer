@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import './Header.css';
+import React from 'react'
+import './App.css'
 
-function Header () {
-return (
+const Header = function(){
+  return(
     <header>
-        <h1>ELF Computing</h1>
-        <h3>Laptops</h3>
-        <h5>Customize your laptop</h5>
-    </header>
-    );
+          <h1>ELF Computing</h1>
+          <h3>Laptops</h3>
+          <h5>Customize your laptop</h5>  
+        </header> 
+  )
 }
 
-export default Header;
+export default Header
